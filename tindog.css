@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#title {
+  background-color: darkgray;
+}
+h1 {
+  /* font-family: "Yeseva One", cursive; */
+  font-family: "Montserrat", sans-serif, bold;
+  color: black;
+  font-size: 4.5rem;
+  line-height: 1.5;
+}
+h2 {
+  font-family: "Montserrat", sans-serif, bold;
+  color: black;
+  font-size: 4.8rem;
+  line-height: 1.5;
+}
+
+.image_i_phone {
+  transform: rotate(11deg);
+}
+.container-fluid {
+  padding-left: 4% 16%;
+}
+
+/* .row {
+  padding: 3px 40px;
+} */
+.collapse {
+  padding-bottom: 4.5rem;
+}
+/* features section */
+#features {
+  padding: 7% 15%;
+}
+#testimonials {
+  background-color: darkgray;
+}
+#testimonials {
+  padding: 7% 15%;
+  text-align: center;
+}
+#press {
+  background-color: darkgray;
+  text-align: center;
+  padding-bottom: 3.5%;
+}
+#pricing {
+  padding: 100px;
+}
+#cta {
+  background-color: darkgray;
+  padding: 7% 15%;
+  text-align: center;
+}
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: black;
+  font-size: 4.5rem;
+  line-height: 1.5;
+}
+p {
+  color: gray;
+}
+.Features_box {
+  text-align: center;
+  padding: 4.5%;
+}
+
+.icon {
+  color: rgb(213, 116, 94);
+}
+.icon:hover {
+  color: chocolate;
+}
+.dog {
+  width: 10%;
+  border-radius: 100%;
+  margin: 15px;
+}
+.lady-pic {
+  width: 10%;
+  border-radius: 100%;
+  margin: 15px;
+}
+.press_log {
+  width: 16%;
+  margin: 21px 21px 51px;
+}
+.carousel-item {
+  padding: 7% 15%;
+}
+.pricing-information {
+  padding: 3% 2%;
+}
+.cta_information {
+  font-family: "Montserrat", sans-serif;
+  color: black;
+  font-size: 2.3rem;
+  line-height: 1.5;
+}
+.Copyright_tag {
+  text-align: center;
+}
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .image_i_phone {
+    transform: rotate(0);
+  }
+}
+.social_media {
+  padding: 1%;
+  background: white;
+}
